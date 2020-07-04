@@ -47,7 +47,7 @@ function generateMarkdown(data) {
    // Licensing switching between cases
    switch (data.license) {
     case 'MIT':
-      var licenseLink = 'mit-license.php';
+      var licenseLink = 'mit-license';
       break;
     case 'GPL 3.0':
       var licenseLink = 'GPL-3.0';

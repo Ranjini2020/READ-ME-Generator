@@ -1,15 +1,15 @@
-# README Generator
+# Readme generator
 
-[![repo size](https://img.shields.io/github/repo-size/undefined/README-Generator)](https://github.com/undefined/README-Generator) [![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/undefined)
+[![repo size](https://img.shields.io/github/repo-size/undefined/Readme-generator)](https://github.com/undefined/Readme-generator) [![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/undefined)
 
 ## Title
 
-Creating README Markdown File
+Creating README
 
 
 ## Description
 
-It's a simple project of creating README file from commandline prompt
+Allows to create README file from commanline
 
 ## Table of contents
 
@@ -30,12 +30,12 @@ It's a simple project of creating README file from commandline prompt
 >Command for installing dependencies:
 
 ```
-nmp install command
+npm i
 ```
 
 ## Usage
 
-User can use it for creating README file
+to create readme
 
 Licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license.
 ## Contributing
@@ -45,7 +45,7 @@ Licensed under the [MIT](https://opensource.org/licenses/mit-license.php) licens
 >To run tests, run this command:
 
 ```
-node test
+npm test
 ```
 
 ## Questions
