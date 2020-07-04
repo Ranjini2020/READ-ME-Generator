@@ -12,7 +12,7 @@ function generateMarkdown(data) {
   
   //displays license next to the badge
   if (license) {
-    markdown += ` [![Github license](https://img.shields.io/badge/license-${data.license.replace(/\b \b/g, "%20")}-blue.svg)](https://opensource.org/licenses/${licenseLink})`;
+    markdown += ` [![Github license](https://img.shields.io/badge/license-blue.svg)](https://opensource.org/licenses/${licenseLink})`;
   }
   
   markdown += `\n\n## Title\n\n${data.title}\n`;
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
    // Licensing switching between cases
    switch (data.license) {
     case 'MIT':
-      var licenseLink = 'mit-license';
+      var licenseLink = 'MIT';
       break;
     case 'GPL 3.0':
       var licenseLink = 'GPL-3.0';
@@ -56,7 +56,7 @@ function generateMarkdown(data) {
       var licenseLink = 'Apache-2.0';
       break;
     case 'BSD 3':
-      var licenseLink = 'BSD-3-Clause';
+      var licenseLink = 'BSD 3';
       break;
     default:
       license = false;
@@ -64,7 +64,7 @@ function generateMarkdown(data) {
   
   //adding the license
   if (license) {
-    markdown += `\nLicensed under the [${data.license}](https://opensource.org/licenses/${licenseLink}) license.`
+    markdown += `\nIn progress (https://opensource.org/licenses/${licenseLink}) license.`
   }
   
   //adding contributing section, based on user choice
